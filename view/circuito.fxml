@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CircuitoController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="860.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/circuito.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="percurso01" fitHeight="692.0" fitWidth="576.0" layoutX="270.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/p01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="percurso06" fitHeight="675.0" fitWidth="576.0" layoutX="270.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/p06.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="percurso10" fitHeight="234.0" fitWidth="576.0" layoutX="270.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/p10.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="percurso07" fitHeight="403.0" fitWidth="576.0" layoutX="270.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/p07.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="percurso13" fitHeight="567.0" fitWidth="454.0" layoutX="495.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/p13.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="percurso18" fitHeight="341.0" fitWidth="350.0" layoutX="495.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/p18.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="percurso24" fitHeight="567.0" fitWidth="576.0" layoutX="270.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/p24.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="percurso21" fitHeight="567.0" fitWidth="586.0" layoutX="270.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/p21.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroVermelho" fitHeight="30.0" fitWidth="20.0" layoutX="265.0" layoutY="557.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/cvermelho.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroAzul" fitHeight="30.0" fitWidth="20.0" layoutX="265.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/cazul.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroBranco" fitHeight="30.0" fitWidth="20.0" layoutX="832.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/cbranco.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroRoxo" fitHeight="30.0" fitWidth="20.0" layoutX="489.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@images/croxo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroRosa" fitHeight="30.0" fitWidth="20.0" layoutX="833.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/crosa.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroCinza" fitHeight="30.0" fitWidth="20.0" layoutX="491.0" layoutY="557.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/ccinza.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroPreto" fitHeight="30.0" fitWidth="20.0" layoutX="608.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@images/cpreto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroCiano" fitHeight="30.0" fitWidth="20.0" layoutX="380.0" layoutY="556.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/cciano.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderVermelho" layoutX="58.0" layoutY="98.0" majorTickUnit="5.0" max="20.0" min="1.0" minorTickCount="4" prefHeight="14.0" prefWidth="110.0" value="10.0" />
+      <Slider fx:id="sliderAzul" layoutX="58.0" layoutY="158.0" majorTickUnit="5.0" max="20.0" min="1.0" minorTickCount="4" prefHeight="14.0" prefWidth="110.0" value="10.0" />
+      <Slider fx:id="sliderBranco" layoutX="58.0" layoutY="220.0" majorTickUnit="5.0" max="20.0" min="1.0" minorTickCount="4" prefHeight="14.0" prefWidth="110.0" value="10.0" />
+      <Slider fx:id="sliderRosa" layoutX="58.0" layoutY="283.0" majorTickUnit="5.0" max="20.0" min="1.0" minorTickCount="4" prefHeight="14.0" prefWidth="110.0" value="10.0" />
+      <Slider fx:id="sliderCinza" layoutX="58.0" layoutY="340.0" majorTickUnit="5.0" max="20.0" min="1.0" minorTickCount="4" prefHeight="14.0" prefWidth="110.0" value="10.0" />
+      <Slider fx:id="sliderRoxo" layoutX="58.0" layoutY="403.0" majorTickUnit="5.0" max="20.0" min="1.0" minorTickCount="4" prefHeight="14.0" prefWidth="110.0" value="10.0" />
+      <Slider fx:id="sliderPreto" layoutX="58.0" layoutY="464.0" majorTickUnit="5.0" max="20.0" min="1.0" minorTickCount="4" prefHeight="14.0" prefWidth="110.0" value="10.0" />
+      <Slider fx:id="sliderCiano" layoutX="58.0" layoutY="525.0" majorTickUnit="5.0" max="20.0" min="1.0" minorTickCount="4" prefHeight="14.0" prefWidth="110.0" value="10.0" />
+      <ImageView fx:id="abertoVermelho" fitHeight="30.0" fitWidth="28.0" layoutX="214.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho_.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fechadoVermelho" fitHeight="47.0" fitWidth="28.0" layoutX="214.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho%20cego.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="abertoAzul" fitHeight="30.0" fitWidth="28.0" layoutX="214.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho_.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fechadoAzul" fitHeight="47.0" fitWidth="28.0" layoutX="214.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho%20cego.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="abertoBranco" fitHeight="30.0" fitWidth="28.0" layoutX="214.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho_.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fechadoBranco" fitHeight="47.0" fitWidth="28.0" layoutX="214.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho%20cego.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="abertoRosa" fitHeight="30.0" fitWidth="28.0" layoutX="214.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho_.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fechadoRosa" fitHeight="47.0" fitWidth="28.0" layoutX="214.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho%20cego.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="abertoRoxo" fitHeight="30.0" fitWidth="28.0" layoutX="214.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho_.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="abertoCinza" fitHeight="30.0" fitWidth="28.0" layoutX="214.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho_.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="abertoPreto" fitHeight="30.0" fitWidth="28.0" layoutX="214.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho_.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="abertoCiano" fitHeight="30.0" fitWidth="28.0" layoutX="214.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho_.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fechadoCinza" fitHeight="47.0" fitWidth="28.0" layoutX="214.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho%20cego.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fechadoRoxo" fitHeight="47.0" fitWidth="28.0" layoutX="214.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho%20cego.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fechadoPreto" fitHeight="47.0" fitWidth="28.0" layoutX="214.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho%20cego.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fechadoCiano" fitHeight="47.0" fitWidth="28.0" layoutX="214.0" layoutY="522.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olho%20cego.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="verVermelho" layoutX="214.0" layoutY="89.0" mnemonicParsing="false" onAction="#vermelhoVer" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="verAzul" layoutX="214.0" layoutY="152.0" mnemonicParsing="false" onAction="#azulVer" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="pauseBranco" layoutX="177.0" layoutY="214.0" mnemonicParsing="false" onAction="#pausarBranco" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="verBranco" layoutX="214.0" layoutY="214.0" mnemonicParsing="false" onAction="#brancoVer" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="pauseRosa" layoutX="177.0" layoutY="277.0" mnemonicParsing="false" onAction="#pausarRosa" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="verRosa" layoutX="214.0" layoutY="277.0" mnemonicParsing="false" onAction="#rosaVer" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="pauseCinza" layoutX="177.0" layoutY="335.0" mnemonicParsing="false" onAction="#pausarCinza" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="verCinza" layoutX="214.0" layoutY="335.0" mnemonicParsing="false" onAction="#cinzaVer" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="pauseRoxo" layoutX="177.0" layoutY="397.0" mnemonicParsing="false" onAction="#pausarRoxo" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="verRoxo" layoutX="214.0" layoutY="397.0" mnemonicParsing="false" onAction="#roxoVer" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="pausePreto" layoutX="177.0" layoutY="459.0" mnemonicParsing="false" onAction="#pausarPreto" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="verPreto" layoutX="214.0" layoutY="458.0" mnemonicParsing="false" onAction="#pretoVer" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="pauseCiano" layoutX="177.0" layoutY="520.0" mnemonicParsing="false" onAction="#pausarCiano" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="verCiano" layoutX="214.0" layoutY="519.0" mnemonicParsing="false" onAction="#cianoVer" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="pauseVermelho" layoutX="177.0" layoutY="92.0" mnemonicParsing="false" onAction="#pausarVermelho" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="pauseAzul" layoutX="177.0" layoutY="152.0" mnemonicParsing="false" onAction="#pausarAzul" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Button fx:id="botaoReset" layoutX="214.0" layoutY="20.0" mnemonicParsing="false" onAction="#resetarTudo" opacity="0.0" prefHeight="30.0" prefWidth="28.0" text="Button" />
+   </children>
+</AnchorPane>
